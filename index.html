@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wendy One">
+    
 </head>
 <body>
-    <div class="line">
-        <p class="title">Tablero de Seguimiento</p>
+    <div class="login">
+        <p class="user">Usuario:</p>
+        <input type="text" name="User" id="user" class="inputUser" required>
+        <p class="password">Contraseña:</p>
+        <input type="password" name="Password" id="password" class="inputPass" required>
+        <button type="submit" onclick="login()">Iniciar</button>
+        <img src="logo-1.webp" alt="logo" class="logo">
     </div>
-    <iframe  class="content" title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzRhZjU0NGUtNjkyNC00YzdhLTk2NTEtYTBjZjk0YTFlMjNhIiwidCI6IjQ3YTgwMzgyLTcwZjktNGMyZS1hZTBlLTE0MTVjMDljZDVkNyJ9" frameborder="0" allowFullScreen="true"></iframe>
-    <div class="line2">
-        <p>Hugo Lix</p>
+
+    <div class="info">
+        <p class="textInfo">Hecho por Hugo Lix</p>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>

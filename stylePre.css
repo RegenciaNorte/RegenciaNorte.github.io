@@ -1,0 +1,130 @@
+body
+{
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 0;
+    font-family: Wendy One;
+}
+
+.head
+{
+    display: flex;
+    background-color: #2978E0;
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    position: relative;
+    margin-top: 0;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.logosmall
+{
+    position: absolute;
+    margin-left: 1vw;
+    width: 16vw;
+    margin-top: 2.5vh;
+}
+
+.title
+{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 3vh;
+    font-size: 3rem;
+    font-family: Wendy One;
+}
+
+.proyect
+{
+    font-family: Wendy One;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 11vh;
+    width: 5vw;
+    height: 2vh;
+    background-color: #E73743;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.shopping
+{
+    font-family: Wendy One;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 11vh;
+    padding: 1rem;
+    background-color: #E73743;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.button
+{
+    font-family: Wendy One;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 11vh;
+    padding: 1rem;
+    background-color: #E73743;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-color:#E73743;
+    font-size: 1rem;
+}
+
+.info
+{
+    width: 34.625rem;
+    height: 1.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #97D700;
+    bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+    grid-row: 2;
+    margin-left: 30vw;
+    margin-top: 1vh;
+}
+
+.textInfo
+{
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: Wendy One;
+    font-size: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 11.14594rem;
+}
+
+.grid
+{
+    grid-row: 1;
+    position: relative;
+    margin-top: 25vh;
+    grid-column: 1;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
