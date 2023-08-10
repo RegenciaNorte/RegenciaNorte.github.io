@@ -1,7 +1,7 @@
 body
 {
     margin: 0%;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     display: grid;
     grid-template-rows: 1fr 0;
@@ -25,7 +25,7 @@ body
 {
     position: absolute;
     margin-left: 1vw;
-    width: 16vw;
+    width: 8vw;
     margin-top: 2.5vh;
 }
 
@@ -33,16 +33,20 @@ body
 {
     position: absolute;
     margin-left: 20vw;
-    margin-top: 3vh;
-    font-size: 3rem;
+    margin-top: 1vh;
+    font-size: 2rem;
     font-family: Wendy One;
+    padding: 1rem;
+    background-color: #97D700;
+    border-radius: 15px;
+    color: #2978E0;
 }
 
 .proyect
 {
     font-family: Wendy One;
     position: absolute;
-    margin-left: 25vw;
+    margin-left: 20vw;
     margin-top: 11vh;
     width: 5vw;
     height: 2vh;
@@ -54,13 +58,14 @@ body
     padding: 1rem;
     text-decoration: none;
     font-size: 1.1rem;
+    color: #fff;
 }
 
 .shopping
 {
     font-family: Wendy One;
     position: absolute;
-    margin-left: 35vw;
+    margin-left: 30vw;
     margin-top: 11vh;
     padding: 1rem;
     background-color: #E73743;
@@ -70,13 +75,16 @@ body
     border-radius: 15px;
     text-decoration: none;
     font-size: 1.1rem;
+    color: #fff;
+    width: 5vw;
+    height: 2vh;
 }
 
 .button
 {
     font-family: Wendy One;
     position: absolute;
-    margin-left: 45vw;
+    margin-left: 40vw;
     margin-top: 11vh;
     padding: 1rem;
     background-color: #E73743;
@@ -85,7 +93,25 @@ body
     justify-content: center;
     border-radius: 15px;
     border-color:#E73743;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+    width: 7vw;
+    height: 6vh;
+}
+
+.grid
+{
+    grid-row: 1;
+    position: relative;
+    margin-top: 25vh;
+    grid-column: 1;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    text-align: center;
+    color: #2978E0;
+    font-size: 1.25rem;
 }
 
 .info
@@ -115,16 +141,4 @@ body
     font-weight: 400;
     line-height: normal;
     width: 11.14594rem;
-}
-
-.grid
-{
-    grid-row: 1;
-    position: relative;
-    margin-top: 25vh;
-    grid-column: 1;
-    height: 65vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
 }
