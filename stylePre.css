@@ -11,7 +11,7 @@ body
 .head
 {
     display: flex;
-    background-color: #edf2f5;
+    background-color: #2978E0;
     width: 100vw;
     height: 20vh;
     flex-direction: row;
@@ -110,7 +110,7 @@ body
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
     text-align: center;
-    color: #2978E0;
+    color: #edf2f5;
     font-size: 1.25rem;
 }
 
